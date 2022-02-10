@@ -14,12 +14,12 @@ public class BitHelperGoodExampleTest {
     }
 
     @Test
-    void testDigit_1_returnByteAscii48() {
+    void testDigit_1_returnByteAscii49() {
         assertEquals(ASCII_ENCODING_ZERO_CODE+1, BitHelper.digit(1));
     }
 
     @Test
-    void testDigit_9_returnByteAscii48() {
+    void testDigit_9_returnByteAscii56() {
         assertEquals(ASCII_ENCODING_ZERO_CODE+9, BitHelper.digit(9));
     }
 }
