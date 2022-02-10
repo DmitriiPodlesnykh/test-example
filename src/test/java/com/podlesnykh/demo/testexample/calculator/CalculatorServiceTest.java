@@ -21,7 +21,7 @@ class CalculatorServiceTest {
     void testCalculate_1plus1_return2() {
         double result = sut.calculate(1, 1, "+");
 
-        Assertions.assertEquals(5, result);
+        Assertions.assertEquals(2, result);
     }
 
     @Test
@@ -30,5 +30,7 @@ class CalculatorServiceTest {
 
         Assertions.assertEquals(0, result);
     }
+
+
 
 }
